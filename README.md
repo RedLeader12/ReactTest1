@@ -9,3 +9,5 @@ Test requirements
 - Pass the event-handler method reference to the UserInput component and bind it to the input-change event
 - Ensure that the new input entered by the user overwrites the old username passed to UserOutput
 - Add two-way-binding to your input (in UserInput) to also display the starting username
+
+All tasks passed. 

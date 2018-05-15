@@ -7,7 +7,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      username: ''
+      username: 'Max'
     };
   }
 
@@ -22,7 +22,7 @@ class App extends Component {
         <UserOutput name= {this.state.username}/> 
         <UserOutput name={this.state.username}/> 
         <UserOutput name={this.state.username}/> 
-        <UserInput onChange={this.nameChangeHandler}/> 
+        <UserInput onChange={this.nameChangeHandler.bind(this)} value={this.state.username}/> 
       </div>
     );
   }
