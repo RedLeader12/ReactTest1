@@ -6,9 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserOutput/> 
-        <UserOutput/> 
-        <UserOutput/> 
+        <UserOutput name='Susan'/> 
+        <UserOutput name='Diane'/> 
+        <UserOutput name='Kable'/> 
         <UserInput /> 
       </div>
     );
