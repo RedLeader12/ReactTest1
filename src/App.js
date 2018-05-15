@@ -22,7 +22,7 @@ class App extends Component {
         <UserOutput name= {this.state.username}/> 
         <UserOutput name={this.state.username}/> 
         <UserOutput name={this.state.username}/> 
-        <UserInput /> 
+        <UserInput onChange={this.nameChangeHandler}/> 
       </div>
     );
   }
