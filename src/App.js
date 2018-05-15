@@ -7,6 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <UserOutput/> 
+        <UserOutput/> 
+        <UserOutput/> 
         <UserInput /> 
       </div>
     );

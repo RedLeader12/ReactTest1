@@ -5,7 +5,6 @@ const userOutput = (props) => {
     <div>
         <p> Hello </p> 
         <p> Me </p>
-        
     </div> 
     )
 };
